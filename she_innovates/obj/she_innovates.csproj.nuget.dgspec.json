@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/she_innovates.csproj": {}
+    "C:\\Users\\Jailynn\\Documents\\SHE INNOVATES\\she_innovates\\she_innovates.csproj": {}
   },
   "projects": {
-    "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/she_innovates.csproj": {
+    "C:\\Users\\Jailynn\\Documents\\SHE INNOVATES\\she_innovates\\she_innovates.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/she_innovates.csproj",
+        "projectUniqueName": "C:\\Users\\Jailynn\\Documents\\SHE INNOVATES\\she_innovates\\she_innovates.csproj",
         "projectName": "she_innovates",
-        "projectPath": "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/she_innovates.csproj",
-        "packagesPath": "/Users/zukinkalitshana/.nuget/packages/",
-        "outputPath": "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/obj/",
+        "projectPath": "C:\\Users\\Jailynn\\Documents\\SHE INNOVATES\\she_innovates\\she_innovates.csproj",
+        "packagesPath": "C:\\Users\\Jailynn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jailynn\\Documents\\SHE INNOVATES\\she_innovates\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/zukinkalitshana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jailynn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
