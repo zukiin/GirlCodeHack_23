@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/she_innovates.props" />
+</Project>
