@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{2634A0DE-0824-4529-AE16-455B840D9EF9}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="she_innovates/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="she_innovates/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="she_innovates/Data/ApplicationDbContext.cs" Line="13" Column="6" />
+      <File FileName="she_innovates/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="she_innovates/Areas/Identity/Pages/Account/Register.cshtml" Line="16" Column="141" />
+      <File FileName="she_innovates/Program.cs" Line="23" Column="2" />
+      <File FileName="she_innovates/Areas/Identity/Pages/Account/Login.cshtml.cs" Line="1" Column="1" />
+      <File FileName="she_innovates/Areas/Identity/Pages/Account/Register.cshtml.cs" Line="97" Column="42" />
+      <File FileName="she_innovates/Views/Post/Index.cshtml" Line="42" Column="1" />
+      <File FileName="she_innovates/Views/Post/Create.cshtml" Line="15" Column="26" />
+      <File FileName="she_innovates/Views/Post/Details.cshtml" Line="25" Column="10" />
+      <File FileName="she_innovates/Views/Post/Edit.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="she_innovates">
+            <Node name="she_innovates" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.she__innovates PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
