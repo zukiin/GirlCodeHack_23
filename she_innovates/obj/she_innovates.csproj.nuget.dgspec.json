@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maswa\\Downloads\\GirlHack\\she_innovates\\she_innovates.csproj": {}
+    "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/she_innovates.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maswa\\Downloads\\GirlHack\\she_innovates\\she_innovates.csproj": {
+    "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/she_innovates.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maswa\\Downloads\\GirlHack\\she_innovates\\she_innovates.csproj",
+        "projectUniqueName": "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/she_innovates.csproj",
         "projectName": "she_innovates",
-        "projectPath": "C:\\Users\\maswa\\Downloads\\GirlHack\\she_innovates\\she_innovates.csproj",
-        "packagesPath": "C:\\Users\\maswa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maswa\\Downloads\\GirlHack\\she_innovates\\obj\\",
+        "projectPath": "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/she_innovates.csproj",
+        "packagesPath": "/Users/zukinkalitshana/.nuget/packages/",
+        "outputPath": "/Users/zukinkalitshana/Projects/GirlCodeHack_23/she_innovates/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maswa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/zukinkalitshana/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +51,10 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -68,6 +70,18 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "stream-net": {
+              "target": "Package",
+              "version": "[6.5.3, )"
             }
           },
           "imports": [
@@ -89,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

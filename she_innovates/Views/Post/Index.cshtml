@@ -1,41 +1,76 @@
 @model IEnumerable<she_innovates.Models.Post>
 
-@{
-    ViewData["Title"] = "Index";
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity Feed</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="/path/to/favicon.png">
+</head>
+<body>
+    <div class="container mt-5">
+        <h3 class="mb-4" align="left">Activity Feed</h3>
+
+        <div class="mb-3" align="right">
+            <a asp-action="Create"><input value="Create Post" class="btn" style="background-color: #e8c3eb"/></a>
+        </div>
+
+        <table class="table table-bordered">
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Content) <p align="right">@Html.DisplayFor(modelItem => item.CreationDate)</p>
+                        <p align="right">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm" style="background-color: #e8c3eb">Edit</a>
+                            @*<a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm" id="LoginSubmit">Share</a>*@
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                        </p>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+<style>
+    /* Add this CSS within your .css file or <style> tag */
+.modal {
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Content)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreationDate)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Content)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreationDate)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-    </tbody>
-</table>
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+</style>

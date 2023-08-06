@@ -1,0 +1,50 @@
+@{
+    ViewData["Title"] = "ProfileSettings";
+}
+
+<head>
+    <style>
+        body {
+            padding: 0% 3% 10% 3%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #b199b8;
+            margin-top: 30px;
+        }
+
+        button {
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+
+        .dark {
+            background-color: #222;
+            color: #b199b8;
+        }
+    </style>
+</head>
+<body>
+<h3>Review your preferences</h3>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <button onclick="myFunction()" style="align-content:end">Dark mode</button>
+
+        <script>
+            function myFunction() {
+            let element = document.body;
+            element.classList.toggle("dark");
+        }</script>
+    </div>
+</div>
+</body>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

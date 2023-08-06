@@ -1,0 +1,139 @@
+@model she_innovates.Models.Post
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Post an update</h3>
+<hr />
+<div class="row">
+    <div class="col-md-4"> 
+
+        <section>
+            <form id="blogForm" enctype="multipart/form-data">
+
+                <label for="content">Content </label>
+                <textarea id="content" name="content" rows="2" required placeholder="Speak your mind..."></textarea><br>
+
+                <label for="image">Image </label>
+                <input type="file" id="image" name="image" accept="image/*"><br>
+
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div><br />
+                <div>
+                    <a asp-action="Index" asp-route-id="@Model?.Id" class="btn btn-primary btn-sm" id="LoginSubmit">Back to List</a>
+                </div>
+            </form>
+        </section>
+        <!-- Display Blog Posts -->
+        <section id="recentPosts">
+            <h2>Recent Posts</h2>
+            <!-- Display blog posts here -->
+            <!-- Each blog post could have a title, content, and an optional image -->
+        </section>
+    </div>
+</div>
+
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      font-family: 'Arial', sans-serif;
+      background-color: white;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      color: #b199b8;
+    }
+
+    /* Blog post form styles */
+    #blogForm {
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: black
+    }
+
+    input[type="text"], textarea, input[type="file"] {
+        width: 80%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #8d1472;
+        margin-bottom: 15px;
+    }
+
+    button[type="submit"] {
+        background-color: #b199b8;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    /* Recent blog posts styles */
+    #recentPosts {
+        padding: 20px;
+    }
+
+        #recentPosts div {
+            background-color: #b199b8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    img {
+        text-align: center;
+        padding: 10x;
+        max-height: 200px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+
+</style>
+
+<script>
+    // Function to handle form submission
+    document.getElementById('blogForm').addEventListener('submit', function (event) {
+      event.preventDefault(); // Prevent form submission
+
+      // Get form data
+      const content = document.getElementById('content').value;
+      const image = document.getElementById('image').files[0];
+
+      // Clear form fields
+      document.getElementById('title').value = '';
+      document.getElementById('content').value = '';
+      document.getElementById('image').value = '';
+
+      // Create blog post HTML element
+      const postElement = document.createElement('div');
+      postElement.innerHTML = `
+        <p>${content}</p>
+      `;
+
+      // Display image if provided
+      if (image) {
+        const imageElement = document.createElement('img');
+        imageElement.src = URL.createObjectURL(image);
+        imageElement.alt = title;
+        postElement.appendChild(imageElement);
+      }
+
+      // Add the new blog post to the "Recent Blog Posts" section
+      document.getElementById('recentPosts').appendChild(postElement);
+    });
+</script>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
