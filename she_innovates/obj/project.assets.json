@@ -12105,19 +12105,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jailynn\\.nuget\\packages\\": {}
+    "C:\\Users\\maswa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jailynn\\Documents\\SHE INNOVATES\\she_innovates\\she_innovates.csproj",
+      "projectUniqueName": "C:\\Users\\maswa\\Downloads\\GirlHack\\she_innovates\\she_innovates.csproj",
       "projectName": "she_innovates",
-      "projectPath": "C:\\Users\\Jailynn\\Documents\\SHE INNOVATES\\she_innovates\\she_innovates.csproj",
-      "packagesPath": "C:\\Users\\Jailynn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jailynn\\Documents\\SHE INNOVATES\\she_innovates\\obj\\",
+      "projectPath": "C:\\Users\\maswa\\Downloads\\GirlHack\\she_innovates\\she_innovates.csproj",
+      "packagesPath": "C:\\Users\\maswa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maswa\\Downloads\\GirlHack\\she_innovates\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jailynn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maswa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

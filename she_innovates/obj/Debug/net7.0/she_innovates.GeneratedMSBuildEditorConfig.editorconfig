@@ -9,101 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = she_innovates
 build_property.RootNamespace = she_innovates
-build_property.ProjectDir = C:\Users\Jailynn\Documents\SHE INNOVATES\she_innovates\
+build_property.ProjectDir = C:\Users\maswa\Downloads\GirlHack\she_innovates\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jailynn\Documents\SHE INNOVATES\she_innovates
+build_property.MSBuildProjectDirectory = C:\Users\maswa\Downloads\GirlHack\she_innovates
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/Account/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Home/Index.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Home/Privacy.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Post/Create.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Post/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Post/Delete.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Post/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Post/Details.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Post/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Post/Edit.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Post/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Post/Index.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Post/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Shared/Error.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/_ViewImports.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/_ViewStart.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jailynn/Documents/SHE INNOVATES/she_innovates/Views/Shared/_Layout.cshtml]
+[C:/Users/maswa/Downloads/GirlHack/she_innovates/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-p9lo0y2xyp
